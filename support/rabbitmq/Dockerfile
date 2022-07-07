@@ -1,5 +1,5 @@
 # use rabbitmq official
-FROM rabbitmq
+FROM rabbitmq:3.10.5
 
 # enable management plugin
 RUN rabbitmq-plugins enable --offline rabbitmq_management
